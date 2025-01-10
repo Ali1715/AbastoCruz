@@ -14,6 +14,7 @@ class ComandosSeeder extends Seeder
     public function run(): void
     {
         $comandos = [
+           
             ['comandos', 'listar', 'ninguno', 'help listar'],
             ['usuario', 'listar', 'ninguno', 'usuario listar'],
             ['usuario', 'agregar', 'name,email,password,rol', 'usuario agregar[admtest;admtest@gmail.com;1234567890;admin]'],
@@ -60,6 +61,8 @@ class ComandosSeeder extends Seeder
             ['salida', 'listar', 'ninguno', 'salida listar'],
 
 */
+
+
 
         ];
 
